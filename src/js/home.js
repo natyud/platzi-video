@@ -92,7 +92,7 @@ fetch('https://randomuser.me/api/dsfdsfsd')
       $element.setAttribute(attribute, attributes[attribute]);
     }
   }
-  const BASE_API = 'https://yts.am/api/v2/';
+  const BASE_API = 'https://yts.mx/api/v2/';
 
   function featuringTemplate(peli) {
     return (
