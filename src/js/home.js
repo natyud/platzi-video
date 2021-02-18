@@ -204,12 +204,6 @@
   renderMovieList(animationList, $animationContainer, 'animation');
 
 
-
-
-
-
-
-
   // const $home = $('.home .list #item');
   const $modal = document.getElementById('modal');
   const $overlay = document.getElementById('overlay');
@@ -255,8 +249,5 @@
     $modal.style.animation = 'modalOut .8s forwards';
 
   }
-
-
-
 
 })()
