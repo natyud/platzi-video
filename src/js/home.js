@@ -163,7 +163,7 @@
   }
   function renderMovieList(list, $container, category) {
     // actionList.data.movies
-    $container.children[0].remove();
+    $container.children[0].remove(); //Esto borra el load
     list.forEach((movie) => {
       const HTMLString = videoItemTemplate(movie, category);
       const movieElement = createTemplate(HTMLString);
