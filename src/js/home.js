@@ -170,7 +170,7 @@
       $container.append(movieElement);
       const image = movieElement.querySelector('img');
       image.addEventListener('load', (event) => {
-        event.srcElement.classList.add('fadeIn');
+        event.target.classList.add('fadeIn');
       })
       addEventClick(movieElement);
     })
